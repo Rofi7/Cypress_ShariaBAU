@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "cypress": "^13.4.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-xpath": "^2.0.1"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.6",
+    "cypress-real-events": "^1.10.3"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/e2e/feature/ECommerceSharia/stepdev/*.{js,ts}"
+  }
+}
